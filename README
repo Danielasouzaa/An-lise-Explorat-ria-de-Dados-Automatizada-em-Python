@@ -1,0 +1,93 @@
+# Análise Exploratória de Dados Automatizada em Python
+
+Este projeto oferece uma solução automatizada para realizar uma análise exploratória de dados (EDA) em conjuntos de dados fornecidos via URLs. Utilizando bibliotecas populares como Pandas, Matplotlib e Seaborn, o script realiza diversas visualizações e estatísticas para facilitar a compreensão dos dados.
+
+## Tabela de Conteúdos
+
+- [Visão Geral](#visão-geral)
+- [Características](#características)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
+
+## Visão Geral
+
+A análise exploratória de dados é uma etapa fundamental no processo de ciência de dados, permitindo entender a estrutura, padrões e insights dos dados antes de avançar para modelagem ou outras análises mais profundas. Este projeto automatiza esse processo, gerando gráficos e estatísticas úteis para qualquer conjunto de dados em formato CSV.
+
+## Características
+
+- **Carregamento de Dados**: Suporta URLs diretas e links do Google Drive.
+- **Visualizações Automáticas**:
+  - Histogramas
+  - Gráficos de Barras
+  - Gráficos de Pizza
+  - Gráficos de Linha
+  - Gráficos de Dispersão
+  - Boxplots
+  - Matriz de Correlação
+- **Estatísticas Descritivas**: Exibição de informações básicas e estatísticas das variáveis.
+- **Análise Especializada**: Área reservada para análises adicionais personalizadas.
+
+## Instalação
+
+1. **Clone o repositório:**
+
+    ```bash
+    git clone https://github.com/seu-usuario/analise-exploratoria-python.git
+    cd analise-exploratoria-python
+    ```
+
+2. **Crie um ambiente virtual (opcional, mas recomendado):**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # No Windows: venv\Scripts\activate
+    ```
+
+3. **Instale as dependências:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    *Se o arquivo `requirements.txt` não existir, você pode instalar as dependências manualmente:*
+
+    ```bash
+    pip install pandas matplotlib seaborn requests
+    ```
+
+## Uso
+
+1. **Prepare a lista de URLs** no script `analise_dados.py`:
+
+    ```python
+    urls = [
+        "https://drive.google.com/file/d/1_k6K9o65mXkHz4gEHOmFNsgFmQOA7DfK/view?usp=sharing",
+        # Adicione mais URLs aqui...
+    ]
+    ```
+
+2. **Execute o script:**
+
+    ```bash
+    python analise_dados.py
+    ```
+
+    O script realizará a análise exploratória para cada URL fornecida, gerando gráficos e estatísticas no console e exibindo visualizações gráficas.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_ com melhorias ou novas funcionalidades.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+- **Autor**: Seu Nome
+- **Email**: seu.email@exemplo.com
+- **LinkedIn**: [seu-linkedin](https://www.linkedin.com/in/seu-usuario)
+
