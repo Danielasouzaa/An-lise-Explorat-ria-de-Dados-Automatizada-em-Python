@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribuição / empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dados
+data/
+*.csv
+
+# Outros
+.DS_Store
+Thumbs.db
